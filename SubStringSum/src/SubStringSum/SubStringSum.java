@@ -1,7 +1,14 @@
-package SubsetSum;
+package SubStringSum;
 
 public class SubStringSum {
 
+	/**
+	 * For a given string sum all subsets and find the sum of all subsets.
+	 * 
+	 * Approach : Sliding window .
+	 * @param args
+	 */
+	
 	public static void main(String[] args) {
 		String number = "972698438521";
 		System.out.println("Sum of substring ::"+getSum(number));

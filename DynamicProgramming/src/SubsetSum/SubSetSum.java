@@ -2,6 +2,11 @@ package SubsetSum;
 
 import java.util.stream.IntStream;
 
+/**
+ * Check if given sum is possible to create with array of integers
+ * @author samrat
+ *
+ */
 public class SubSetSum {
 
 	public static void main(String[] args) {
