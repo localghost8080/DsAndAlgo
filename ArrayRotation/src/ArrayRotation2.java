@@ -10,8 +10,11 @@ public class ArrayRotation2 {
 		for(int i:result) {
 			System.out.print(i+" ");
 		}
+		
+
+		
 	}
-	static int[] rotate(int[] input , int k) {
+	public static int[] rotate(int[] input , int k) {
 		
 		k = input!=null && k>input.length?(k%input.length):k;
 		if(input == null || input.length ==0 ||  k<=0 ) {
@@ -35,4 +38,6 @@ public class ArrayRotation2 {
 		return input;
 		
 	}
+	
+	
 }
