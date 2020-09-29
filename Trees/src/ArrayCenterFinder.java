@@ -1,6 +1,8 @@
 /**
- * WAP to find the middle element of an unsorted array , in O(n)
- * middle element : if the array were to be sorted , this element would be in the middle of the sorted list.
+ * WAP to find the middle element of an unsorted array , in least possible iteration 
+ * defintion of middle element : if the array were to be sorted , this element would be in the middle of the sorted list.
+ * 
+ * Approach : create max heap and delete from heap for n/2 times
  * @author samrat
  *
  */
