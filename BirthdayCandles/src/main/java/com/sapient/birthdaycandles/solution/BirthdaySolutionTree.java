@@ -13,7 +13,7 @@ public class BirthdaySolutionTree implements BirthdaySolution {
 	 * 
 	 * Use inorder traveral while counting nodes to get unique nodes.
 	 * 
-	 * Complexity O(logn)
+	 * Complexity O(nlogn)
 	 */
 	
 	public int getNumberOfBlows(int[] candles) {

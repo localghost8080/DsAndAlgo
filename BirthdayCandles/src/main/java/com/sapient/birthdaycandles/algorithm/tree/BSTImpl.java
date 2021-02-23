@@ -4,7 +4,11 @@ public class BSTImpl implements BinarySearchTree {
 
 
 
-
+/*
+ * Complexity O(LogN)
+ */
+	
+	private static int count=0;
 	public BSTNode insertIntoTree(BSTNode root, int input) {
 
 		if(input < 0) {
@@ -12,6 +16,7 @@ public class BSTImpl implements BinarySearchTree {
 		}
 
 		if(root == null) {
+			count++;
 			return new BSTNode(input);
 		}
 
@@ -26,7 +31,8 @@ public class BSTImpl implements BinarySearchTree {
 	}
 
 	public int countNodes(BSTNode root) {
-		return inorderTraversal(root);
+    //		return inorderTraversal(root);
+		return count;
 	}
 	
 	private int inorderTraversal(BSTNode root) {

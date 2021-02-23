@@ -11,7 +11,7 @@ public class BirthDaySolutionSorting implements BirthdaySolution {
 	 * A different answer could be to use a hashset and count unique elements in hashset , this is more efficient but not chosen to implement  
 	 * as JDK libraries are unavailable and it difficult to implement hash collision avoidance with efficient memory utilization in given time.
 	 * 
-	 * Complexity Max(O nlogn , n) == O(nLogn)
+	 * Complexity Max(O nlogn , n) == O(nLogn) + O(n)
 	 * 
 	 * @param candles
 	 * @return blows required
